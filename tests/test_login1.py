@@ -5,7 +5,7 @@ from time import sleep
 from pages.login_page import LoginPage
 from utils.config_reader import ConfigReader
 class TestLogin:
-    @pytest
+    @pytest.mark.smoke
     def test_login_pass(self, driver):
                 
         login_page = LoginPage(driver) 
