@@ -3,7 +3,7 @@ from utils.config_reader import ConfigReader
 from utils.api_helper import ApiHelper
 import pytest
 
-@pytest.mark.api
+@pytest.mark.smoke
 class TestApi:
     def test_get_endpoint(self):
 
